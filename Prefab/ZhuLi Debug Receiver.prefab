@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5533709372946425222}
-  - component: {fileID: 6808867024834237137}
+  - component: {fileID: 4525602773350150083}
   m_Layer: 0
   m_Name: ZhuLi Debug Receiver
   m_TagString: Untagged
@@ -25,14 +25,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3624986186747384148}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 284.81854, y: 230.77083, z: 13.262329}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6808867024834237137
+--- !u!114 &4525602773350150083
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,8 +41,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3624986186747384148}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a896e0433ae62c4f8f196df799c4e7a, type: 3}
+  m_Script: {fileID: 11500000, guid: 11e865e254f787543b91298139f71803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_receivedThingToDo: 
   m_typeReceived: 
+  m_receivedThingToDo: 
