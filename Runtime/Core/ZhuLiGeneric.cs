@@ -1,13 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.Events;
+﻿public class ZhuLiGeneric<T> { 
 
-public static class ZhuLi
-{
     static TheThingToDo m_listeners;
-    public delegate void TheThingToDo(IZhuLiCommand theThingToDo);
-    public static void DoTheThing(IZhuLiCommand theThingToDo) {
+    public delegate void TheThingToDo(IZhuLiGenericCommand<T> theThingToDo);
+    public static void DoTheThing(IZhuLiGenericCommand<T> theThingToDo) {
         if (m_listeners != null)
             m_listeners(theThingToDo);
     }
